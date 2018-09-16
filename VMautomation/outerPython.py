@@ -1,3 +1,8 @@
+#
+# This script runs outside the VM automating the boot, restore snapshot and shutdown process
+# The shutdown of VM occurs when defender virus scan results are in the shared folder.
+# After shutdown completes a new archive will be transferred to the share and the cycle loops.
+#
 import subprocess
 import os.path
 import time
@@ -15,7 +20,7 @@ if "Restoring" in result:
         print "booted"
         os.chdir(directory)
         while not os.path.lexists(file_path):
-            time.sleep(1)
+            time.sleep(3)
         if os.path.isfile(file_path):
             print "I spy a little file"
             print "shutdown"
