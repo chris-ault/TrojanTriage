@@ -10,8 +10,9 @@ import re
 #
 
 # File to import from
-defenderOutput = "test.txt"
+defenderOutput = "sample.txt"
 print "Starting processing of :" + defenderOutput
+
 mydb = mysql.connector.connect(
     host="localhost",
     user="user",
@@ -41,76 +42,102 @@ catID = ["invalid", "adware", "spyware",
          "VIRUS", "KNOWN", "UNKNOWN", "SPP",
          "BEHAVIOR", "VULNERABILTIY", "POLICY"
          ]
-#types = ["Known Bad", "Behavior", "Unknown", "Known Good", "NRI"]
-#severities = ["Unknown","Low","Moderate","High","Severe"]
+# types = ["Known Bad", "Behavior", "Unknown", "Known Good", "NRI"]
+# severities = ["Unknown","Low","Moderate","High","Severe"]
+
+
+def checkHash(hashToTest):
+    if (len(hashToTest) == 32):
+        return True
+    else:
+        print "Bad hash: " + str(hashToTest) + "has " + str(len(hashToTest))
+
+inserts = 0
 entry = 0
-fileHashes = []
-fileLocations = []
+fileLocations = ''
+fileLocGroup, badFiles, fileHashes = ([] for i in range(3))
+
 with open(defenderOutput) as fp:
     # print "Element #:" + str(entry)
     for line in fp:
-        # This strips newlines between entries and catches /
-        # white space before "  Resources"
-        if re.match(r'[^\S\n\t]+', line.rstrip('/r/n')):
-            print "Found other resources:"
-            fileLocation = line.strip().strip(",").strip("...}")
-            fileLocations.append(fileLocation)
-            print fileLocations
-            fileHashes.append(fileLocation.split('_', 2)[-1].split("-")[0].strip("}"))
-            print fileHashes
-            # print line.strip().strip('}')
-        else:
-            currentline = line.split(':', 1)
-            if currentline[0].strip() == "CategoryID":
-                # Store Category ID
-                if int(currentline[1]) > 47:
-                    category = "undefined"
-                else:
-                    category = catID[int(currentline[1])]
-                    #print category
-            if currentline[0].strip() == "Resources":
-                fileLocation1 = currentline[1].strip().strip('{').strip(',').strip("}")
-                fileLocations.append(fileLocation1)
-                fileHashes.append(fileLocation1.split('_', 2)[-1].split("-")[0])
-            if currentline[0].strip() == "RollupStatus":
-                curRollup = currentline[1].strip()
-                # print "Roll up " + currentline[1].strip()
-            if currentline[0].strip() == "SchemaVersion":
-                curSchema = currentline[1].strip()
-                # print "schema " + currentline[1].strip()
-            if currentline[0].strip() == "SeverityID":
-                curSeverity = currentline[1].strip()
-                # print 'Severity ' + currentline[1].strip()
-            if currentline[0].strip() == "ThreatID":
-                curID = currentline[1].strip()
-                # print "ThreatID " + currentline[1].strip()
-            if currentline[0].strip() == "ThreatName":
-                # print "Threat name is " + currentline[1].strip()
-                threatName = currentline[1].split(':')
-                temp = threatName[1].split('/')
-                OS = temp[0].strip()
-                threatSub = temp[1].strip()
-                threatType = threatName[0].strip()
-                # print "Os:" + OS + " type:" + threatType + " subtype:" /
-                #     + threatSub
-                entry = entry + 1
-                print "Element #:" + str(entry)                
-                i = 0
-                for i in range(len(fileHashes)):
-                    print "Vars: " + str((curSeverity, threatType, OS, category, curRollup, curSchema, curID))
-                    print ("hash:",fileHashes[i], "location:",fileLocations[i])
-                    # raw_input()
-                    sql = "INSERT INTO element (severity, type, OS, CategoryID, Rollupstatus, Schemaversion, threatID, HASH, Location, subType) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-                    val = (curSeverity, threatType, OS, category, curRollup, curSchema, curID, fileHashes[i], fileLocations[i], threatSub)
-                    try:
-                        mycursor.execute(sql, val)
-                        mydb.commit()
-                        print(mycursor.rowcount, " hash record inserted.")                        
-                    except mysql.connector.Error as err:
-                        print err.msg
-                        print fileHashes[i] + " Already exists"
-                        #raw_input()
-                del fileHashes[:]
-                del fileLocations[:]
+            parts = [line[:16].strip(), line[19:].strip()]
+            # print parts[0:]
+            # The front part is empty but the back has something
+            if not len(parts[0]):
+                fileLocations = fileLocations + parts[1]
+            else:
+                if parts[0].strip() == "CategoryID":
+                    # Store Category ID
+                    if int(parts[1]) > 47:
+                        category = "undefined"
+                    else:
+                        category = catID[int(parts[1])]
+                        # print category
+                if parts[0].strip() == "Resources":
+                    fileLocations = fileLocations + parts[1]
+                if parts[0].strip() == "RollupStatus":
+                    curRollup = parts[1].strip()
+                    # print "Roll up " + parts[1].strip()
+                if parts[0].strip() == "SchemaVersion":
+                    curSchema = parts[1].strip()
+                    # print "schema " + parts[1].strip()
+                if parts[0].strip() == "SeverityID":
+                    curSeverity = parts[1].strip()
+                    # print 'Severity ' + parts[1].strip()
+                if parts[0].strip() == "ThreatID":
+                    curID = parts[1].strip()
+                    # print "ThreatID " + parts[1].strip()
+                if parts[0].strip() == "ThreatName":
+                    # print "Threat name is " + parts[1].strip()
+                    threatName = parts[1].split(':')
+                    temp = threatName[1].split('/')
+                    OS = temp[0].strip()
+                    threatSub = temp[1].strip()
+                    threatType = threatName[0].strip()
+
+                    # Split multi line and check hashes
+                    locationsGroup = fileLocations.split(',')
+                    for single in locationsGroup:
+                        # print single
+                        containerCheck = 1
+                        # Dangerous while loop
+                        while len(single.rsplit('_', containerCheck)[1]) < 32:
+                            containerCheck = containerCheck + 1
+                            if containerCheck > 5:
+                                break
+                        testHash = single.rsplit('_', containerCheck)[1].split("-")[0].strip("}").strip("...")
+                        if checkHash(testHash):
+                            fileHashes.append(testHash)
+                            fileLocGroup.append(single.strip('{').strip('}').strip("..."))
+                        else:
+                            badFiles.append(single)
+                    entry = entry + 1
+                    print "Element #:" + str(entry)
+                    i = 0
+                    for i in range(len(fileHashes)):
+                        if checkHash(fileHashes[i]):
+                            print "Vars: " + str((curSeverity, threatType, OS, category, curRollup, curSchema, curID))
+                            print "hash:", fileHashes[i]
+                            print "location:", fileLocGroup[i]
+                            # raw_input()
+                            sql = "UPDATE element SET severity=%s, type=%s, OS=%s, CategoryID=%s, Rollupstatus=%s, Schemaversion=%s, threatID=%s, Location=%s, subType=%s WHERE HASH=%s"
+                            val = (curSeverity, threatType, OS, category, curRollup, curSchema, curID, fileLocGroup[i], threatSub, fileHashes[i])
+                            try:
+                                mycursor.execute(sql, val)
+                                inserts = inserts + mycursor.rowcount
+                            except mysql.connector.Error as err:
+                                print err.msg
+                                print fileHashes[i] + " Already exists"
+                            #raw_input()
+                        else:
+                            print "Bad hash, not even trying " + str(fileHashes[i]) + "is " + str(len(fileHashes[i]))
+                    # Reset everything 
+                    fileLocations = ''
+                    locationsGroup = []
+                    del fileHashes[:]
+                    del fileLocGroup[:]
+print "Bad files not added " + str(badFiles)
+print(inserts, " hash record inserted.")
+mydb.commit()
 
 fp.close()

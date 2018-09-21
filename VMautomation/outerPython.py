@@ -34,8 +34,8 @@ for singleZip in glob.glob("*.zip"):
             while not os.path.lexists(results):
                 time.sleep(3)
             if os.path.isfile(results):
-                print "I spy a little file, delay 10 seconds for it to finish copying"
-                time.sleep(10)
+                print "I spy a little file, delay 60 seconds for it to finish copying, press enter to confirm copied"
+                time.sleep(60)
                 print "shutdown"
                 #
                 # Shut down VM File found
