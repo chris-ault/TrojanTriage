@@ -10,7 +10,7 @@ import re
 #
 
 # File to import from
-defenderOutput = "sample.txt"
+defenderOutput = "VirusShare_CryptoRansom_20160715.txt"
 print "Starting processing of :" + defenderOutput
 
 mydb = mysql.connector.connect(
@@ -89,11 +89,18 @@ with open(defenderOutput) as fp:
                     # print "ThreatID " + parts[1].strip()
                 if parts[0].strip() == "ThreatName":
                     # print "Threat name is " + parts[1].strip()
-                    threatName = parts[1].split(':')
-                    temp = threatName[1].split('/')
-                    OS = temp[0].strip()
-                    threatSub = temp[1].strip()
-                    threatType = threatName[0].strip()
+                    # Check to see if name is short
+                    if ':' not in parts[1]:
+                        threatName = parts[1].strip('!').split('_')
+                        threatType = threatName[0]
+                        threatSub = threatName[1]
+                        OS = 'UNKNOWN'
+                    else:
+                        threatName = parts[1].split(':')
+                        temp = threatName[1].split('/')
+                        OS = temp[0].strip()
+                        threatSub = temp[1].strip()
+                        threatType = threatName[0].strip()
 
                     # Split multi line and check hashes
                     locationsGroup = fileLocations.split(',')
