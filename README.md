@@ -1,9 +1,9 @@
 # TrojanTraige
 This project is built to organize a collection of malware in order to gain knowledge from commonalities between certain pieces of malware.
 
-    The front end is a python flask based web page
-    The data is pulled from multiple major antivirus databases as well as local research.
-    The file are processed with python and sent to a mySQL database.
+    The front end utilizes Django & Django ORM operations on the mySQL database
+    The data stored in the mySQL database is pulled from multiple major antivirus databases as well as local research.
+    The log malware scan log files are processed with python.
 
 ![Image of Flask GUI](https://github.com/chris-ault/TrojanTraige/blob/master/flask.JPG)
 ------------
