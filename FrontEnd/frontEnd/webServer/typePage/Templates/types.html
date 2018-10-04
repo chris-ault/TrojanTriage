@@ -1,5 +1,20 @@
-<ul>
-{% for item in type %}
-  <li><a href="/type/details/{{item.type}}">{{ item.type }}</li>
+{% load debugFun %}
+{% include 'partials/headert.html' %}
+<table>
+	<tr>
+		<th>Type</th><th>Count</th>
+	</tr>
+	{% for item in type %}
+	<tr>
+  		<td><a href="/type/details/{{item.type}}">{{ item.type }}</a></td>
+  		<td>{{ item.total }}</td>
+	</tr>
 {% endfor %}
-</ul>
+</table>
+</br>
+<span>
+{% dbinfo %}
+<br><br>
+{% dbquerylist %}
+</span>
+{% include 'partials/footer.html' %}
