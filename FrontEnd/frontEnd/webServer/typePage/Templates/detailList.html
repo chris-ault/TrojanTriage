@@ -9,10 +9,16 @@
 	<th>Street Name</th>	
 	<th>Hash</th>
 	<th>Severity</th>
+	<th>DLLS</th>
 </tr>
 {% for item in hash %}
 <tr>
-	<td>{{ item.os }}</td><td>{{ item.type }}</td><td>{{ item.subtype }}</td><td><tt>{{ item.hash }}</tt></td><td>{{ item.severity }}</td>
+	<td>{{ item.os }}</td>
+	<td>{{ item.type }}</td>
+	<td>{{ item.subtype }}</td>
+	<td><tt>{{ item.hash }}</tt></td>
+	<td>{{ item.severity }}</td>
+	<td><a href="/type/dllList/{{ item.hash|urlencode }}">DLLS</a></td>
 </tr>
 {% endfor %}
 </table>

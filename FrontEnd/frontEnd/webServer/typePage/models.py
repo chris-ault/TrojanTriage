@@ -4,18 +4,7 @@ from django.db import models
 
 
 # Create your models here.
-class Dlltable(models.Model):
-    malware_dll_id = models.SmallIntegerField(primary_key=True)
-    dll_name = models.CharField(max_length=80)
-
-    def __str__(self):
-        return self.dll_name
-
-    class Meta:
-        managed = False
-        db_table = 'dlltable'
-
-
+# This is good table dont hurt
 class Element(models.Model):
     severity = models.IntegerField(blank=True, null=True)
     type = models.CharField(max_length=255, blank=True, null=True)
@@ -34,7 +23,7 @@ class Element(models.Model):
         managed = False
         db_table = 'element'
 
-
+# This is emptier and destroyable
 class Malware(models.Model):
     severity = models.IntegerField(blank=True, null=True)
     type = models.CharField(max_length=255, blank=True, null=True)
@@ -55,6 +44,18 @@ class Malware(models.Model):
         managed = False
         db_table = 'malware'
         # ordering = ("type",)
+
+
+class Dlltable(models.Model):
+    malware_dll_id = models.SmallIntegerField()
+    dll_name = models.CharField(max_length=80, primary_key=True)
+
+    def __str__(self):
+        return self.dll_name
+
+    class Meta:
+        managed = False
+        db_table = 'dlltable'
 
 
 class Malware2Dll(models.Model):
