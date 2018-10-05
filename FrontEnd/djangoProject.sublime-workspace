@@ -1,0 +1,517 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Malware",
+				"Malware\tclass"
+			],
+			[
+				"malware",
+				"malware_dll_id"
+			],
+			[
+				"malwa",
+				"malware_dll_id"
+			],
+			[
+				"malw",
+				"Malware2Dll__malware_dll_id"
+			],
+			[
+				"hash",
+				"hashIN\tparam"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"Mal",
+				"Malware2Dll\tclass"
+			],
+			[
+				"win32",
+				"win32gui\tmodule"
+			],
+			[
+				"date",
+				"datetime\tmodule"
+			],
+			[
+				"Da",
+				"DateTimeField\tclass"
+			],
+			[
+				"http",
+				"http\tmodule"
+			],
+			[
+				"as",
+				"ascii"
+			],
+			[
+				"fileloc",
+				"fileLocGroup\tstatement"
+			],
+			[
+				"file",
+				"fileHashes\tstatement"
+			],
+			[
+				"loca",
+				"locationsGroup\tstatement"
+			],
+			[
+				"defender",
+				"defenderEntry\tclass"
+			],
+			[
+				"defend",
+				"defenderEntry\tclass"
+			],
+			[
+				"temp",
+				"tempType\tstatement"
+			],
+			[
+				"te",
+				"tempName"
+			],
+			[
+				"threat",
+				"threatName"
+			],
+			[
+				"sche",
+				"schemaVersion"
+			],
+			[
+				"entr",
+				"entriesReady\tstatement"
+			],
+			[
+				"single",
+				"singleZip\tstatement"
+			],
+			[
+				"sing",
+				"singleZip\tstatement"
+			],
+			[
+				"sca",
+				"scanResults\tstatement"
+			],
+			[
+				"input",
+				"inputfile"
+			],
+			[
+				"scan",
+				"scanResults\tstatement"
+			],
+			[
+				"store",
+				"storeResultsCmd\tstatement"
+			],
+			[
+				"sub",
+				"subprocess\tmodule"
+			],
+			[
+				"dir",
+				"directory"
+			],
+			[
+				"item",
+				"item_hash\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packagecontrol install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git init",
+				"git: init"
+			],
+			[
+				"GIT STATUS",
+				"git: status"
+			],
+			[
+				"gitsavvy",
+				"GitSavvy: help"
+			],
+			[
+				"git status",
+				"git: status"
+			],
+			[
+				"branch",
+				"git: branch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit m",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"commit me",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git ",
+				"Set Syntax: Git Config"
+			],
+			[
+				"git",
+				"Git: Init"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 331.0,
+		"history":
+		[
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 52721))",
+			"print(view.settings().get(\"git_savvy.interface\"))",
+			"git",
+			"print(view.settings().get('git_savvy.status_view'))"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/static",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials"
+	],
+	"file_history":
+	[
+		"/E/Windows 10 Pro X64 3in1 Redstone 4 AUG 2018 {Gen2}/INFO/Windows 10 Pro X64 3in1 Redstone 4 AUG 2018 {Gen2}.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/types.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials/headert.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/views.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/models.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/urls.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/dllList.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/detailList.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials/headerdll.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials/headert_dark.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials/headerd.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials/header.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/webServer/settings.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/debugFun.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/Templates/partials/footer.html",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/templatetags/__init__.py",
+		"/C/Users/captn2/AppData/Local/Temp/Temp1_FI9803P V2.zip/FosIPC_E_app_ver2.x.2.49.bin/Read me.txt",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/urls.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/gui.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/typePage/admin.py",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/admin.py",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/migrations/0001_initial.py",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/migrations/__init__.py",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/__init__.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/FrontEnd/frontEnd/webServer/webServer/urls.py",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todolist/settings.py",
+		"/C/Users/captn2/Documents/InputKey.ahk",
+		"/C/Users/captn2/Downloads/noname",
+		"/C/Users/captn2/Documents/CyberIntern/VMs/SHAREDRIVE/VirusShare_CryptoRansom_20160715.txt",
+		"/C/Users/captn2/Documents/PythonTray/tray/tray.py",
+		"/C/Users/captn2/Documents/CyberIntern/VMs/SHAREDRIVE/innerPython.py",
+		"/C/Users/captn2/AppData/Local/Temp/Temp1_keylogger-feature.zip/keylogger-feature/keylogger.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Tools/Defender Real time monitoring.txt",
+		"/C/Users/captn2/Downloads/README.txt",
+		"/C/Python37/Lib/site-packages/virtualenv.py",
+		"/C/Python37/Scripts/django-admin.py",
+		"/C/Program Files (x86)/Python36-32/Scripts/pip.exe",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Tools/pythonManualInstall.txt",
+		"/C/Users/captn2/Documents/Fraud/Fraud Notes.txt",
+		"/C/Users/captn2/Documents/PythonTray/tray.py",
+		"/C/Users/captn2/Downloads/WinUtils_v1-0/.rsrc/MANIFEST/1",
+		"/C/Users/captn2/Downloads/WinUtils_v1-0/.rdata",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/templates/index.html",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/templates/partials/footer.html",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/templates/partials/header.html",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/templates/details.html",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/models.py",
+		"/C/Users/captn2/Documents/CyberIntern/todolist/todolist/todos/views.py",
+		"/C/Python27/lib/argparse.py",
+		"/E/python/WinPython64/python-3.5.4.amd64/Scripts/register_python",
+		"/C/Python37/LICENSE.txt",
+		"/E/python/WinPython64/settings/winpython.ini",
+		"/E/python/WinPython64/scripts/apps/todolist/todolist/settings.py",
+		"/E/python/WinPython64/bin/vcvars32.bat",
+		"/E/python/WinPython64/settings/.python_history",
+		"/E/python/WinPython64/settings/.spyder-py3/workingdir",
+		"/E/python/WinPython64/scripts/apps/todolist/todos/views.py",
+		"/E/python/WinPython64/scripts/apps/todolist/todos/urls.py",
+		"/E/python/WinPython64/scripts/apps/todolist/todolist/urls.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/db/dllAnaly.py",
+		"/C/Users/captn2/Downloads/R-U-Dead-Yet/rudy/README",
+		"/C/Users/captn2/Downloads/torshammer/torshammer.py",
+		"/E/python/WinPython64/scripts/keylog.py",
+		"/E/python/WinPython64/scripts/keylogger.py",
+		"/E/python/WinPython64/scripts/os_detect.py",
+		"/E/python/keylogger-feature/keylogger.py",
+		"/E/python/WinPython64/scripts/keylog.txt",
+		"/C/Users/captn2/Downloads/ddosim-0.2/README.txt",
+		"/C/Users/captn2/Downloads/R-U-Dead-Yet/rudy/rudeadyet.conf",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/comodo/comodoParser.py",
+		"/C/Users/captn2/Documents/CyberIntern/mySQL/Query/DLLhitCounts.csv",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/VMautomation/innerPython.py",
+		"/C/Python27/Lib/site-packages/django/bin/testDjango/testDjango/settings.py",
+		"/C/Python27/Lib/site-packages/django/bin/testDjango/polls/models.py",
+		"/C/Users/captn2/Documents/CyberIntern/mySQL/Query/DLLhitCounts.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/gregparse.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/db/malwareDB_makeTables.py",
+		"/C/Users/captn2/Documents/CyberIntern/TrojanTriage/parsers/comodo/avExport.ascii",
+		"/C/Users/captn2/Documents/CyberIntern/TrojanTriage/parsers/comodo/comodoParser.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/defenderResult.txt",
+		"/C/Users/captn2/Documents/CyberIntern/TrojanTriage/db/malwareDB_makeTables.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/db/dllTable.py",
+		"/C/Users/captn2/Documents/CyberIntern/TrojanTriage/db/dllAnaly.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Tools/walkDirectoryAndRun.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Malware/disassembly/dllList.py",
+		"/C/ProgramData/Comodo/Cis/Quarantine/data/{024D9DC9-4CDB-4C5E-982F-C8C31CB7E314}",
+		"/C/ProgramData/Comodo/Firewall Pro/cislogs.sdb",
+		"/C/Users/captn2/Documents/CyberIntern/VMs/SHAREDRIVE/dllTable.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/tempStorage/storeHashes.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Tools/packerDirTester.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Tools/parsingTools.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Malware/disassembly/hash.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Malware/disassembly/capstone.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/buildRemovalList.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/defenderParser.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/sample.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_VirusShare_Mediyes_000.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_VirusShare_Pony_20131205.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_VirusShare_Regin_20141124.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_sample.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_VirusShare_iPhoneOS_20131229.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_VirusShare_CC24.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/Delete_VirusShare_ELF_20140617.txt",
+		"/C/Users/captn2/Documents/CyberIntern/VMs/MalwareArchives/ScanResults/VirusShare_CC24.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/VirusShare_CC24.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/VirusShare_ELF_20140617.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/parsers/defender/VirusShare_Mediyes_000.txt",
+		"/C/Users/captn2/Documents/CyberIntern/TrojanTriage/parsers/defender/defenderParser.py",
+		"/C/ProgramData/MySQL/MySQL Server 8.0/Data/malwaredb/fastHashStore.py",
+		"/C/ProgramData/MySQL/MySQL Server 8.0/Uploads/fastHashStore.py",
+		"/C/Users/captn2/Documents/CyberIntern/mysqlserver my_updates.ini",
+		"/C/ProgramData/MySQL/MySQL Server 8.0/my.ini",
+		"/C/Users/captn2/Documents/CyberIntern/mySQL/Notes.txt",
+		"/E/asus.bak.9.11/programData/mysqlServer 8.0/my.ini",
+		"/C/Program Files (x86)/MySQL/MySQL Installer for Windows/MySQLInstaller.exe.config",
+		"/C/ProgramData/MySQL/MySQL Server 8.0/Data/DESKTOP-C0A1L4K.err",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Done_Dont_Edit/fastHashStore.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/DefenderProcessing/readResc.py",
+		"/C/Users/captn2/Documents/CyberIntern/mysql_commands.txt",
+		"/C/Users/captn2/Documents/CyberIntern/num_hashes.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/Tools/packerDetector.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/tempStorage/Sub/walkcount.py",
+		"/C/Users/captn2/Documents/CyberIntern/VMs/GamePlan.txt",
+		"/C/Users/captn2/Documents/CyberIntern/Code/TrojanTriage/VMautomation/outerPython.py",
+		"/C/Users/captn2/Documents/CyberIntern/Code/tempStorage/Sub/unpacked_hashes.md5",
+		"/C/Users/captn2/Documents/CyberIntern/threadTest.py",
+		"/C/Users/captn2/Documents/CyberIntern/threadingPinger.py",
+		"/C/Users/captn2/Documents/CyberIntern/notify.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"debug",
+			"template",
+			"regis"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\captn2\\Documents\\CyberIntern\\Code\\TrojanTriage\\FrontEnd\\frontEnd\\webServer"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.719686190108,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

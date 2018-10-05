@@ -11,6 +11,8 @@ def index(request):
 
 
 def type(request):
+    # typec = Element.objects.values('type').distinct().count()
+    # count = Element.objects.all().values('type').annotate(total=Count('type'))
     count = Malware.objects.values('type').annotate(
         total=Count('type')).order_by('-total')
 
