@@ -1,0 +1,6 @@
+PE32+ executable for MS Windows (console) 32-bit
+PE32+ executable for MS Windows (native)
+PE32+ executable for MS Windows (native) 32-bit Mono/.Net assembly
+PE32+ executable for MS Windows (console)
+ASCII text, with CRLF line terminators
+ASCII Java program text, with CRLF line terminators
