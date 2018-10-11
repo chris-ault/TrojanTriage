@@ -12,6 +12,12 @@
 ####################################################################
 #
 # To empty TRUNCATE TABLE tablename;`
+
+
+# TODO
+# Currently this adds directly to DB with no flat file inbetween
+# DB Loss results in parsing needing to be done again
+# Less DB Commit More Speed!
 import mysql.connector
 import hashlib
 import pefile
@@ -20,7 +26,7 @@ import glob
 
 mydb = mysql.connector.connect(
     #host="localhost",
-    host="10.37.92.133",
+    host= "?",#"10.37.92.133",
     user="user",
     passwd="password",
     database="malwareDB"
@@ -51,6 +57,7 @@ def lookupAndInsert(hash, dllName):
 def createNewDll(hash, dllName):
     print "make this new dll"
     mycursor.execute("""INSERT INTO dlltable (dll_name) VALUES ('%s')""" % (dllName))
+    # This commit should not be removed, lookupAndInsert will depend on the above Insert to exist before returning to main
     mydb.commit()
     print "dll made return to lookupInsert"
     lookupAndInsert(hash, dllName)
@@ -60,6 +67,7 @@ def createNewDll(hash, dllName):
 BUF_SIZE = 65536  # lets read stuff in 64kb chunks!
 
 md5 = hashlib.md5()
+# Iterate over all files in this DIR
 for file in glob.glob('*'):
     with open(file, 'rb') as f:
         while True:
@@ -68,13 +76,17 @@ for file in glob.glob('*'):
                 break
             md5.update(data)
     print(md5.hexdigest())
+    # Check if PE Parsable
     try:
         pe = pefile.PE(file)
         for entry in pe.DIRECTORY_ENTRY_IMPORT:
+            # Check if already exists or can insert
             try:
                 lookupAndInsert(str(md5.hexdigest()), str(entry.dll.decode('utf-8')))
             except mysql.connector.Error as err:
                 pass
+        # Consider placing Db Commit here
+        # And Removing from DEF
     except (pefile.PEFormatError, AttributeError):
         pass
 print "By God I Think We Might Have Done It"
