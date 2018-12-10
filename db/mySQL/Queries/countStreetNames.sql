@@ -1,0 +1,1 @@
+select distinct subType, count(*) from element where not (subType is NULL) group by subType order by count(*) desc;

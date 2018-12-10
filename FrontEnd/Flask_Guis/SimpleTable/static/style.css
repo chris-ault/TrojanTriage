@@ -1,0 +1,32 @@
+body            { font-family: sans-serif; background: #fff; }
+.container {
+    margin-left: 0;
+  }
+
+  tbody {
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+  thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+  }
+
+  thead {
+    width: 100%;
+  }
+
+  table {
+    width: 200px;
+  }
+
+  td:nth-child(1) {
+    width:10%
+  }
+
+  td:nth-child(3) {
+    width:30%
+  }

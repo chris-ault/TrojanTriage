@@ -1,0 +1,12 @@
+Database Interface
+Run Server
+	C:\Users\captn2\Documents\CyberIntern\Code\Code_PossibleDuplicates\
+		TrojanTriage\FrontEnd\frontEnd\1Database_Views_Interface>pythonw manage.py runserver
+-----------------------------------------------------------------------------------
+Upload Interface
+Venv
+	C:\Users\captn2\Documents\CyberIntern\Code\Code_PossibleDuplicates\
+		TrojanTriage\FrontEnd\frontEnd>Scripts\activate
+Run Server
+	(frontEnd) C:\Users\captn2\Documents\CyberIntern\Code\Code_PossibleDuplicates\TrojanTriage\FrontEnd\frontEnd\1Parrot_JSON_fileUpload_Interface\minimal-django-file-upload-example\src\for_django_1-9\myproject>
+		python manage.py runserver localhost:8001

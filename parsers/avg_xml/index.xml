@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aswObject>
+	<NewId>00000050</NewId>
+	<Size>54490094</Size>
+	<ChestEntry>
+		<ChestId>00000001</ChestId>
+		<FileTime>1536225785</FileTime>
+		<OrigFileName>VirusShare_00e6af8a522259b83fa317b7a2f8f161</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536207826</TransferTime>
+		<FileSize>43722</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Small-CFQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000002</ChestId>
+		<FileTime>1536225786</FileTime>
+		<OrigFileName>VirusShare_0ac9b76b75dc91d42e0ca83a4890cbe0</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Vitro</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208143</TransferTime>
+		<FileSize>76800</FileSize>
+		<Viruses>Win64:Vitro|pep-inf|algo;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000003</ChestId>
+		<FileTime>1536229386</FileTime>
+		<OrigFileName>VirusShare_0b346b201da259377ba11438504bbd9e</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Xtrat-I [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208144</TransferTime>
+		<FileSize>203750</FileSize>
+		<Viruses>Win32:Xtrat-I [Trj]|Always|mult;Win32:Evo-gen [Susp]|+EG804410|egpe;Win32:Evo-gen [Susp]|+EG813076|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000004</ChestId>
+		<FileTime>1536229386</FileTime>
+		<OrigFileName>VirusShare_0b3dbac1f5461615b288e1c9076e7176</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:VB-BLW [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208147</TransferTime>
+		<FileSize>5495296</FileSize>
+		<Viruses>Win32:VB-BLW [Trj]|Always|mult;Win32:VB-COL [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000005</ChestId>
+		<FileTime>1536229391</FileTime>
+		<OrigFileName>VirusShare_003e845bdcc5367220bf13f7170da16f</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Trojan-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208173</TransferTime>
+		<FileSize>468480</FileSize>
+		<Viruses>Win32:Trojan-gen|PE3-846184300001C880704DF1619338B8A0|troj;Win32:Sirefef-AYP [PUP]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000006</ChestId>
+		<FileTime>1536229388</FileTime>
+		<OrigFileName>VirusShare_01ae30f6635fc661a7f3a4995962e83f</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Patched-HO [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208175</TransferTime>
+		<FileSize>466931</FileSize>
+		<Viruses>Win32:Patched-HO [Trj]|Always|mult;Win32:Patched-JI [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000007</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_01db10a317194fe7c94a58fae14f787c</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Dropper-DJP [Drp]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208175</TransferTime>
+		<FileSize>783360</FileSize>
+		<Viruses>Win32:Dropper-DJP [Drp]|Always|mult;Win64:Malware-gen|PE3-81409592000154C51FAFD2C5F30247B1|troj;FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000008</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_02b94f96e0f1bc9189b756edd8b64318</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208176</TransferTime>
+		<FileSize>928001</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000009</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_02fb8545f6940114e4d5c10ed777a04c</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208176</TransferTime>
+		<FileSize>4955338</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Small-CFQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000000A</ChestId>
+		<FileTime>1536229391</FileTime>
+		<OrigFileName>VirusShare_03e5b8d5b2696cf34359e1b8d2243da0</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Patched-HO [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208177</TransferTime>
+		<FileSize>285185</FileSize>
+		<Viruses>Win32:Patched-HO [Trj]|Always|mult;Win32:Patched-JI [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000000B</ChestId>
+		<FileTime>1536229392</FileTime>
+		<OrigFileName>VirusShare_04b3194bce294556586c87b627ccdae3</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-AKFK [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208179</TransferTime>
+		<FileSize>501248</FileSize>
+		<Viruses>Win32:Agent-AKFK [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000000C</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_04d2ddc47267352028cad0070d4e9ac4</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208179</TransferTime>
+		<FileSize>136192</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000000D</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_04d56751f25d6169005395ccd13eae55</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208179</TransferTime>
+		<FileSize>1514492</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;Win32:Virut-KZ@dam|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000000E</ChestId>
+		<FileTime>1536229387</FileTime>
+		<OrigFileName>VirusShare_0f0554e3a8dc4938a2dff13b6cb080a9</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:AutoRun-BHW [Wrm]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208181</TransferTime>
+		<FileSize>249856</FileSize>
+		<Viruses>Win32:AutoRun-BHW [Wrm]|Always|mult;Win32:Trojan-gen|PE3-5796070E0001DF80A01DBE869DEDBF21|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000000F</ChestId>
+		<FileTime>1536225787</FileTime>
+		<OrigFileName>VirusShare_0f4813e358687324b9de239011d822a6</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208181</TransferTime>
+		<FileSize>4975612</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000010</ChestId>
+		<FileTime>1536229387</FileTime>
+		<OrigFileName>VirusShare_0f6441892cfd2ab54bd5dae53e92239e</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>IRC:Malware-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208184</TransferTime>
+		<FileSize>1191424</FileSize>
+		<Viruses>IRC:Malware-gen|TX4E9C5DAE52064B29100001DC|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000011</ChestId>
+		<FileTime>1536229387</FileTime>
+		<OrigFileName>VirusShare_0fef3c0c12f89c20ea09d99f5f6ead0a</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:BackDoor-ACW [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208187</TransferTime>
+		<FileSize>2013696</FileSize>
+		<Viruses>Win32:BackDoor-ACW [Trj]|Always|mult;Win32:Delf-GIY [Drp]|Always|mult;Win32:Malware-gen|PE3-088C20EF00025A45FAD7FC09FF178D89|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000012</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_0ffae323037b4845e1c2dd8a11e0af01</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Relevant-AB [PUP]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208188</TransferTime>
+		<FileSize>204312</FileSize>
+		<Viruses>Win32:Relevant-AB [PUP]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000013</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1a5d3021db16ee2670c8e3d3b9a0771f</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Vitro</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208188</TransferTime>
+		<FileSize>321536</FileSize>
+		<Viruses>Win64:Vitro|pep-inf|algo;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000014</ChestId>
+		<FileTime>1536229388</FileTime>
+		<OrigFileName>VirusShare_1a6031959d62cc35e0c9d95a8eadfa38</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Java:Agent-FYF [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208192</TransferTime>
+		<FileSize>1328128</FileSize>
+		<Viruses>Java:Agent-FYF [Trj]||mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000015</ChestId>
+		<FileTime>1536229388</FileTime>
+		<OrigFileName>VirusShare_1ab5e53c6524fddc8b793bcea1f47d5f</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Malware-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208193</TransferTime>
+		<FileSize>47104</FileSize>
+		<Viruses>Win64:Malware-gen|PE3-5B7021AD000019052DBC53E5DC9A1EC1|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000016</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1abae8bece6b2aa93173df4b08b65ada</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Vitro</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208195</TransferTime>
+		<FileSize>856064</FileSize>
+		<Viruses>Win64:Vitro|pep-inf|algo;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000017</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1ae1f009df1679433057d09b7a4e1c4f</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Patched-XF [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208195</TransferTime>
+		<FileSize>59904</FileSize>
+		<Viruses>Win32:Patched-XF [Trj]|Always|mult;Win32:Tenga|Always|mult;Win32:Tenga-B|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000018</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1b7c0b64ba5d97af1374f6a7e353867e</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [PUP]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208197</TransferTime>
+		<FileSize>110176</FileSize>
+		<Viruses>FileRepMetagen [PUP]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000019</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1bced6319358f60260ad018823113e94</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:PUP-gen [PUP]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208197</TransferTime>
+		<FileSize>170608</FileSize>
+		<Viruses>Win64:PUP-gen [PUP]|PE3-B026E5A800001FD6CBE9C78B624E3746|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000001A</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1c0e7503ac0c45086c98302d10ad9887</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208197</TransferTime>
+		<FileSize>358908</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000001B</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1c8195a15d83a969e1c7615c108d3035</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208197</TransferTime>
+		<FileSize>237876</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000001C</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1cb102e7fd171ec78ab0b2224f102225</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208197</TransferTime>
+		<FileSize>69632</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;Win64:Evo-gen [Susp]|+EG771468|egpe;Win64:Evo-gen [Susp]|+EG774284|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000001D</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1ce5e870656a9cd7b9fcd6d7f63a7771</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Trojan-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208198</TransferTime>
+		<FileSize>61692</FileSize>
+		<Viruses>Win64:Trojan-gen|PE3-40785EAE000034D0EFC858F89B473134|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000001E</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1d45c718da2b2f7c3c9774eaf5a624b2</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208199</TransferTime>
+		<FileSize>1363735</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000001F</ChestId>
+		<FileTime>1536229388</FileTime>
+		<OrigFileName>VirusShare_1e134bbfe3a537424a2ccd13d4ed7ea9</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Dropper-FJG [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208200</TransferTime>
+		<FileSize>384512</FileSize>
+		<Viruses>Win32:Dropper-FJG [Trj]|Always|mult;Win32:Evo-gen [Susp]|+EG21189|egpe;Win32:Evo-gen [Susp]|+EG40503|egpe;Win32:Evo-gen [Susp]|+EG41011|egpe;Win32:Evo-gen [Susp]|+EG65274|egpe;Win32:Evo-gen [Susp]|+EG68955|egpe;Win32:Evo-gen [Susp]|+EG645104|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000020</ChestId>
+		<FileTime>1536229388</FileTime>
+		<OrigFileName>VirusShare_1e34b50b8af8dbeb750c291981428053</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Inject-AII [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208203</TransferTime>
+		<FileSize>449536</FileSize>
+		<Viruses>Win32:Inject-AII [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000021</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1e56bc24d8fe21348b29709029add906</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMalware</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208203</TransferTime>
+		<FileSize>227856</FileSize>
+		<Viruses>FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000022</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1e86e2fdff9c1089b2883fc3ed12b212</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208203</TransferTime>
+		<FileSize>265564</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000023</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1ecdc7455e30797fbe62a591cd119cd2</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMalware</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208204</TransferTime>
+		<FileSize>74176</FileSize>
+		<Viruses>FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000024</ChestId>
+		<FileTime>1536225788</FileTime>
+		<OrigFileName>VirusShare_1ef1463cb5cd677b3b73e414dc2998af</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Malware-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208204</TransferTime>
+		<FileSize>666624</FileSize>
+		<Viruses>Win64:Malware-gen|PE3-81409592000154C530325BCA8FE1E4F2|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000025</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_1f04389bfb1dfaf813a2f67d5cad092b</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208205</TransferTime>
+		<FileSize>162304</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;Win64:Evo-gen [Susp]|+EG236311|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000026</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_2a65046feb272b7b5bd825a0a0e57c53</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-KKQ [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208205</TransferTime>
+		<FileSize>165376</FileSize>
+		<Viruses>Win32:Agent-KKQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000027</ChestId>
+		<FileTime>1536229389</FileTime>
+		<OrigFileName>VirusShare_2af3aa23286a216c8995c178490593fc</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Malware-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208206</TransferTime>
+		<FileSize>275968</FileSize>
+		<Viruses>Win32:Malware-gen|PE3-D92028B70001B005191F751FBA2C717F|troj;Win32:Evo-gen [Susp]|+EG555256|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000028</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_2b1bcb854057da7c3b61315af1d65920</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208208</TransferTime>
+		<FileSize>23036</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000029</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_2b488c84030f7fe71563793aba9db07f</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-KKQ [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208208</TransferTime>
+		<FileSize>209025</FileSize>
+		<Viruses>Win32:Agent-KKQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000002A</ChestId>
+		<FileTime>1536229389</FileTime>
+		<OrigFileName>VirusShare_2bac879b6cdf577969d2f51d4e435289</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:FakeSysdef-DO [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208209</TransferTime>
+		<FileSize>1245696</FileSize>
+		<Viruses>Win32:FakeSysdef-DO [Trj]|Always|mult;Win32:FakeSysdef-DP [Trj]|Always|mult;Win32:Evo-gen [Susp]|+EG89876|egpe;Win32:Evo-gen [Susp]|+EG109647|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000002B</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_2bd25e9cf861f0a65e5fbbf0e0b7ab29</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208209</TransferTime>
+		<FileSize>312010</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Small-CFQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000002C</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_2c503bebe612e4f0a590dcde41eafa21</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208210</TransferTime>
+		<FileSize>52224</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000002D</ChestId>
+		<FileTime>1536225789</FileTime>
+		<OrigFileName>VirusShare_2c75605732e53ab5eda618bcc2a1042d</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Virut-ANS</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208210</TransferTime>
+		<FileSize>55296</FileSize>
+		<Viruses>Win32:Virut-ANS|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000002E</ChestId>
+		<FileTime>1536225790</FileTime>
+		<OrigFileName>VirusShare_2cbffba65a4eb05e79db51579306e988</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-KKQ [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208211</TransferTime>
+		<FileSize>130560</FileSize>
+		<Viruses>Win32:Agent-KKQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000002F</ChestId>
+		<FileTime>1536225790</FileTime>
+		<OrigFileName>VirusShare_2cc557e2c58932f2e0c18b683770ba8b</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-KKQ [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208212</TransferTime>
+		<FileSize>779264</FileSize>
+		<Viruses>Win32:Agent-KKQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000030</ChestId>
+		<FileTime>1536225790</FileTime>
+		<OrigFileName>VirusShare_2cca7f7cdcd80e4db2ff923d80b79ac9</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMalware</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208212</TransferTime>
+		<FileSize>143816</FileSize>
+		<Viruses>FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000031</ChestId>
+		<FileTime>1536229390</FileTime>
+		<OrigFileName>VirusShare_2cfa0b1c7ff49727a28c222fd524fc2c</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Sirefef-JQ [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208213</TransferTime>
+		<FileSize>628736</FileSize>
+		<Viruses>Win32:Sirefef-JQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000032</ChestId>
+		<FileTime>1536229390</FileTime>
+		<OrigFileName>VirusShare_2d7839f3fc66dceee05dd4da03474675</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Evo-gen [Susp]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208217</TransferTime>
+		<FileSize>599552</FileSize>
+		<Viruses>Win32:Evo-gen [Susp]|+EG1409|egpe;Win32:Evo-gen [Susp]|+EG804410|egpe;Win32:Evo-gen [Susp]|+EG813076|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000033</ChestId>
+		<FileTime>1536229390</FileTime>
+		<OrigFileName>VirusShare_2dcefe60b902897bf4279c041a065bcc</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>MSIL:Agent-SY [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208219</TransferTime>
+		<FileSize>689664</FileSize>
+		<Viruses>MSIL:Agent-SY [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000034</ChestId>
+		<FileTime>1536229390</FileTime>
+		<OrigFileName>VirusShare_2e0e5bad6caee56856970420c0a996d9</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Flooder-GR [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208221</TransferTime>
+		<FileSize>3063808</FileSize>
+		<Viruses>Win32:Flooder-GR [Trj]|Always|mult;Win32:Fynloski-C [Trj]|Always|mult;Win32:Malware-gen|PE3-094CB7FA00092685148DA7AA4432AE3B|troj;Win32:Evo-gen [Susp]|+EG788647|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000035</ChestId>
+		<FileTime>1536225790</FileTime>
+		<OrigFileName>VirusShare_2e4982325d6d34d52ebafa0dd495b466</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-KKQ [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208221</TransferTime>
+		<FileSize>1697792</FileSize>
+		<Viruses>Win32:Agent-KKQ [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000036</ChestId>
+		<FileTime>1536229390</FileTime>
+		<OrigFileName>VirusShare_2ea216e792ef906fef47402a72222763</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Malware-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208222</TransferTime>
+		<FileSize>522240</FileSize>
+		<Viruses>Win32:Malware-gen|PE3-4506A60E00026E85C3EFF39F1BBD951F|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000037</ChestId>
+		<FileTime>1536229391</FileTime>
+		<OrigFileName>VirusShare_2ebe59105a5a955361ab3dd16158746d</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>MSIL:Inject-AF [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208226</TransferTime>
+		<FileSize>1735680</FileSize>
+		<Viruses>MSIL:Inject-AF [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000038</ChestId>
+		<FileTime>1536229391</FileTime>
+		<OrigFileName>VirusShare_2f34659e48f529ea4883cfe11c326078</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-AAGI [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208226</TransferTime>
+		<FileSize>100864</FileSize>
+		<Viruses>Win32:Agent-AAGI [Trj]|Always|mult;Win32:Agent-ACII [Trj]|Always|mult;Win32:Agent-TZE [Trj]|Always|mult;Win32:Poison-CJ [Trj]|Always|mult;Win32:Poison-DE [Trj]|Always|mult;Win32:Poison-FU [Trj]|Always|mult;Win32:Poison-IJ [Trj]|Always|mult;Win32:Poison-WJ [Trj]|Always|mult;Win32:Poison-YL [Trj]|Always|mult;Win32:PoisonIvy-HN [Trj]|Always|mult;Win32:PoisonIvy-HV [Trj]|Always|mult;Win32:PoisonIvy-HW [Trj]|Always|mult;Win32:PoisonIvy-HX [Trj]|Always|mult;Win32:PoisonIvy-LQ [Trj]|Always|mult;Win32:Tiny-ADY [Trj]|Always|mult;Win32:Evo-gen [Susp]|+EG125752|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000039</ChestId>
+		<FileTime>1536225791</FileTime>
+		<OrigFileName>VirusShare_2fceaab4d2f77e4e321130d7c13764e1</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208226</TransferTime>
+		<FileSize>219132</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000003A</ChestId>
+		<FileTime>1536225791</FileTime>
+		<OrigFileName>VirusShare_3a152ef073000d460d9264d60f878123</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Trojan-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208227</TransferTime>
+		<FileSize>143872</FileSize>
+		<Viruses>Win64:Trojan-gen|PE3-F6F7DE39000257C0213045A93113A6CF|troj;FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000003B</ChestId>
+		<FileTime>1536225791</FileTime>
+		<OrigFileName>VirusShare_3a717a1531ab1bab3da31d936efdd6c6</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMalware</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208227</TransferTime>
+		<FileSize>261632</FileSize>
+		<Viruses>FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000003C</ChestId>
+		<FileTime>1536229391</FileTime>
+		<OrigFileName>VirusShare_3abfc9971b0244bd8b3fd71bae538450</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Buzus-MR [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208228</TransferTime>
+		<FileSize>218112</FileSize>
+		<Viruses>Win32:Buzus-MR [Trj]|Always|mult;Win32:Buzus-PD [Trj]|Always|mult;Win32:Buzus-WA [Trj]|Always|mult;Win32:Downloader-BMZ [Wrm]|Always|mult;Win32:Downloader-BVK [Trj]|Always|mult;Win32:Evo-gen [Susp]|+EG65168|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000003D</ChestId>
+		<FileTime>1536229391</FileTime>
+		<OrigFileName>VirusShare_3b73aae72c644a583165345b1399bdeb</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:GenMalicious-JAG [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208230</TransferTime>
+		<FileSize>719872</FileSize>
+		<Viruses>Win32:GenMalicious-JAG [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000003E</ChestId>
+		<FileTime>1536225791</FileTime>
+		<OrigFileName>VirusShare_3c4c5b0218ccda6d928f5f17716b0e7a</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208230</TransferTime>
+		<FileSize>80504</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000003F</ChestId>
+		<FileTime>1536229392</FileTime>
+		<OrigFileName>VirusShare_3df41d5755cdf49d0e4f3c7013b60f33</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Trojan-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208232</TransferTime>
+		<FileSize>509952</FileSize>
+		<Viruses>Win32:Trojan-gen|PE3-9BA4B28700001580172922594B519DB3|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000040</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_3eac43d6d2823e96ec667e1b9aab6a73</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208233</TransferTime>
+		<FileSize>803491</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000041</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_3f041d0879df5f0a9011c247388462ca</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208233</TransferTime>
+		<FileSize>390140</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000042</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_3f9b091c227c556b625a112ae350e18b</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208233</TransferTime>
+		<FileSize>617524</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000043</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4a07b8971b8b9a915ec5e2d77a6275dc</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208234</TransferTime>
+		<FileSize>1016780</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000044</ChestId>
+		<FileTime>1536229392</FileTime>
+		<OrigFileName>VirusShare_4a45262f75e06d4274c13d84d95214a7</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>AutoIt:Tbl-W [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208235</TransferTime>
+		<FileSize>777122</FileSize>
+		<Viruses>AutoIt:Tbl-W [Trj]||mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000045</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4abeff74ef244747bfd002d6679ea025</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208235</TransferTime>
+		<FileSize>33276</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000046</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4aee8b48db04c5fe06284ef5da3e7239</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208235</TransferTime>
+		<FileSize>39932</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000047</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4b428890778717c635f4fdf37e0c476e</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Agent-BARL [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208235</TransferTime>
+		<FileSize>482404</FileSize>
+		<Viruses>Win32:Agent-BARL [Trj]|Always|mult;Win32:Crypt-RPY [Trj]|Always|mult;Win32:GenMalicious-FSA [Trj]|Always|mult;Win32:Nimda-O [Drp]|Always|mult;Win32:Runonce [Trj]|Always|mult;Win32:Runonce-A [Wrm]|Always|mult;Win32:Runouce-E [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000048</ChestId>
+		<FileTime>1536229392</FileTime>
+		<OrigFileName>VirusShare_4b882f26874fffd4caa6d768c1cbae9b</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:AutoRun-BPN [Wrm]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208237</TransferTime>
+		<FileSize>380928</FileSize>
+		<Viruses>Win32:AutoRun-BPN [Wrm]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>00000049</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4bc75c43ca502fc6251b08939be62941</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Malware-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208239</TransferTime>
+		<FileSize>407552</FileSize>
+		<Viruses>Win64:Malware-gen|PE3-98952176000153C5AE895F2303DABD81|troj;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000004A</ChestId>
+		<FileTime>1536229392</FileTime>
+		<OrigFileName>VirusShare_4bf7765cda5fe17a1a14223cb379b44d</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>MSIL:Bladabindi-CY [Trj]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208240</TransferTime>
+		<FileSize>256000</FileSize>
+		<Viruses>MSIL:Bladabindi-CY [Trj]|Always|mult;MSIL:Crypt-OX [Trj]|Always|mult;MSIL:Crypt-OZ [Trj]|Always|mult;MSIL:Crypt-PC [Trj]|Always|mult;MSIL:Crypt-PD [Trj]|Always|mult;MSIL:GenMalicious-ST [Trj]|Always|mult;MSIL:Inject-AL [Drp]|Always|mult;MSIL:Injector [Trj]|Always|mult;Win32:GenMaliciousA-GXI [Trj]|Always|mult;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000004B</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4c6a970497053090a98963bd0fea5431</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMetagen [Malware]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208241</TransferTime>
+		<FileSize>88064</FileSize>
+		<Viruses>FileRepMetagen [Malware]||frsb;Win64:Evo-gen [Susp]|+EG774275|egpe;Win64:Evo-gen [Susp]|+EG847335|egpe;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000004C</ChestId>
+		<FileTime>1536225792</FileTime>
+		<OrigFileName>VirusShare_4cea477a5ed4fef9bcfa4d940e64a681</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win64:Trojan-gen</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208242</TransferTime>
+		<FileSize>44472</FileSize>
+		<Viruses>Win64:Trojan-gen|PE3-66907F9800004200D2F3CCD4A6BA9488|troj;FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000004D</ChestId>
+		<FileTime>1536225793</FileTime>
+		<OrigFileName>VirusShare_4dce51ac7341f854ade157f355af61ad</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMalware</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208243</TransferTime>
+		<FileSize>34304</FileSize>
+		<Viruses>FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000004E</ChestId>
+		<FileTime>1536225793</FileTime>
+		<OrigFileName>VirusShare_4e024fc6077966c9fb8f801e2458705c</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>FileRepMalware</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208247</TransferTime>
+		<FileSize>2379776</FileSize>
+		<Viruses>FileRepMalware||frsb;</Viruses>
+	</ChestEntry>
+	<ChestEntry>
+		<ChestId>0000004F</ChestId>
+		<FileTime>1536229393</FileTime>
+		<OrigFileName>VirusShare_4e80c948a46555705242b8ee562c46c8</OrigFileName>
+		<OrigFolder>C:\Users\captn\Documents\CyberInternship\infected\VirusShare_x86-64_WinEXE_20130711</OrigFolder>
+		<Comment></Comment>
+		<Virus>Win32:Spyware-gen [Spy]</Virus>
+		<Category>Vir</Category>
+		<Restore>yes</Restore>
+		<TransferTime>1536208250</TransferTime>
+		<FileSize>444928</FileSize>
+		<Viruses>Win32:Spyware-gen [Spy]|PE3-8D2950E200003D425A747BA6CDEF9A56|troj;</Viruses>
+	</ChestEntry>
+</aswObject>
+
+

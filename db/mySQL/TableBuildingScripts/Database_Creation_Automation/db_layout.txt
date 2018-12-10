@@ -1,0 +1,13 @@
+Malware or Element Table 9/2/18
+--------------+--------------+--
+| severity      | int(11)      |
+| type          | varchar(255) |
+| OS            | varchar(255) |
+| CategoryID    | varchar(255) |
+| Rollupstatus  | varchar(255) |
+| Schemaversion | varchar(255) |
+| Date          | varchar(255) |
+| threatID      | bigint(20)   |
+| HASH          | char(32)     |
+| Location      | varchar(255) |
+| subType       | varchar(255) |

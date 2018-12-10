@@ -1,0 +1,10 @@
+SHOW VARIABLES LIKE "secure_file_priv";
+LOAD DATA LOCAL INFILE "C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\VirusShare_00059.md5"
+	IGNORE
+    INTO TABLE customers
+    CHARACTER SET utf8
+    FIELDS
+		TERMINATED BY '\n'
+        OPTIONALLY ENCLOSED BY ""
+	IGNORE 1 LINES
+    (HASH);

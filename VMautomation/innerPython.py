@@ -19,9 +19,9 @@ import subprocess
 import glob
 
 # Input Malware
-inputdir = "\\\\Vboxsvr\\sharedrive2\\input"
+inputdir = "\\\\\vmware-host\Shared Folders\malware"
 # Output Results.txt
-outdir = "\\\\Vboxsvr\\sharedrive2\\"
+outdir = "\\\\Vboxsvr\\\vmware-host\Shared Folders\malware"
 # Windows Defender Prefix location
 defdir = "C:\\Program Files\\Windows Defender"
 # first command offers no throttle limit however disable remediation is good... This is far too slow, seems to be a 30% limit
@@ -41,7 +41,7 @@ if len(outResult) > 0:
     print "MpThreat Has results already, Fix it"
     raw_input()
     exit()
-print "Logs must be clean"
+print "Logs appear to be clean, continuing to parse mal"
 os.chdir(inputdir)
 for inputfile in glob.glob("*.zip"):
     file = inputfile

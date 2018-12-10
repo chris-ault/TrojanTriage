@@ -1,0 +1,8 @@
+TrojanTriage\FrontEnd\frontEnd\webServer
+TrojanTriage\FrontEnd\frontEnd\fileUpload\minimal-django-file-upload-example\src\for_django_1-9\myproject\myproject\myapp
+
+python - 2.7.15
+django - 1.11.15
+json 	- 2.0.9
+>>> print json.__version__
+2.0.9

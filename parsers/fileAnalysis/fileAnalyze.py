@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+# Runs File Command and dissassembly finding entry point on passed argument file
 #
 # ERROR HANDLING DONE, nEEDS CATCH FOR SPACES IN FILENAME
 #
@@ -15,10 +16,11 @@ fileCmd = "C:\\Users\\captn\\Documents\\CyberInternship\\Resources\\GnuWin32\\bi
 
 # Learning ASM
 # https://stackoverflow.com/questions/34564542/understanding-these-assembly-instructions
-#DeptOfDef PE File Github
+# DeptOfDef PE File Github
 # https://github.com/deptofdefense/SalSA/wiki/PE-File-Format
 # Capstone Tut
 # https://www.capstone-engine.org/lang_python.html
+
 # BUF_SIZE is totally arbitrary, change for your app!
 BUF_SIZE = 65536  # lets read stuff in 64kb chunks!
 location = sys.argv[1]
@@ -37,6 +39,7 @@ print "file is : " + location
 def add2db(hash, attribList):
     #print "Updating Database for element MD5:"+hash+"\nentry point, firstInstruction, bytes, SHA1"
     g.write(attribList[4] + '\n')
+    print attribList[4]
     #for x in attribList:
     #    print x.ljust(20)
 
@@ -81,8 +84,9 @@ except NameError as e:
 attribs.append(str(os.path.getsize(location)))
 attribs.append(sha1.hexdigest())
 
-output = subprocess.check_output([fileCmd, location])
-attribs.append(output.split(';')[1].strip())
+output = subprocess.check_output([fileCmd,'-b', location])
+mime = subprocess.check_output([fileCmd,'-bi', location])
+attribs.append(output.strip() + "~~~" + mime.strip())
 
 
 
