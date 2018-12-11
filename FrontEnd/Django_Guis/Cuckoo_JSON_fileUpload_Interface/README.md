@@ -8,9 +8,9 @@ Usage (Django 1.9)
 ------------------
 First ensure you have installed the following:
 
-Django==1.11.15
-mysqlclient==1.3.13
-pytz==2018.5
+	Django==1.11.15
+	mysqlclient==1.3.13
+	pytz==2018.5
 
 Then:
 
