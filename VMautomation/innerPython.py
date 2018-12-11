@@ -18,19 +18,23 @@ import time
 import subprocess
 import glob
 
+# Windows Username
+username = "Velma"
 # Input Malware
-inputdir = "\\\\\vmware-host\Shared Folders\malware"
+inputdir = "\\\\vmware-host\Shared Folders\malware\\"
 # Output Results.txt
-outdir = "\\\\Vboxsvr\\\vmware-host\Shared Folders\malware"
+outdir = "\\\\Vboxsvr\\\vmware-host\Shared Folders\malware\\"
 # Windows Defender Prefix location
 defdir = "C:\\Program Files\\Windows Defender"
+# 7z file location
+sevzDir = "C:\\Program Files\\7-Zip"
 # first command offers no throttle limit however disable remediation is good... This is far too slow, seems to be a 30% limit
 # in combination with realtime protection disabled
-scanCmd = "MpCmdRun.exe -scan -ScanType 3 -DisableRemediation -file C:\\Users\\user\\Desktop\\scanme"
+scanCmd = "MpCmdRun.exe -scan -ScanType 3 -DisableRemediation -file C:\\Users\\" + username + "\\Desktop\\scanme"
 # scanCmd = "powershell -command Start-MpScan -ScanPath C:\\Users\\user\\Desktop\\scanme -ScanType CustomScan -ThrottleLimit 70"
 # Save Results to txt file
-resultFile = inputdir + '\\resultpause.txt'
-storeResultsCmd = "powershell -command Get-MpThreat > " + resultFile
+resultFile = inputdir + 'resultpause.txt'
+storeResultsCmd = "powershell -command Get-MpThreat > \"" + resultFile + "\""
 # This is brokenErase any old results
 # This command is broken Clean MpThreat before getting results
 # cleanResultsCmd = "powershell -command Remove-MpThreat"
@@ -42,19 +46,21 @@ if len(outResult) > 0:
     print "MpThreat Has results already, Fix it"
     raw_input()
     exit()
+
 print "Logs appear to be clean, continuing to parse mal"
 os.chdir(inputdir)
-while not os.path.exists('*.zip'):
-    time.sleep(1)
+# The Zip had better be here by now
 for inputfile in glob.glob("*.zip"):
     file = inputfile
     print str(file)
     # file = "virusshare.rar"
     # file = "VirusShare_ELF_20140617.zip"
     # Also make sure Realtime Scanning is not enabled ?
-    command = "7z e -pinfected " + inputdir + \
-        file + " -oC:\\Users\\user\\Desktop\\scanme\\"
+    os.chdir(sevzDir)
+    command = "7z e -y -pinfected \"" + inputdir + \
+        file + "\" -oC:\\Users\\" + username + "\\Desktop\\scanme\\"
     print command
+
     # print "File Ready to extract, wait and check Get-MpThreat"
     # raw_input()
     p = subprocess.Popen(command, stdout=subprocess.PIPE,
@@ -62,6 +68,7 @@ for inputfile in glob.glob("*.zip"):
     # The following returns to stdin "A\r\n" to Always replace files while unzipping
     out, err = p.communicate()
     print out
+
     #
     # 7Zip returns "Everything is Ok"
     #
@@ -75,6 +82,7 @@ for inputfile in glob.glob("*.zip"):
         # scanCmd Returns 1 for failed scan, 2 for good scan, 0 for empty scan
         scanResults = str(os.system(scanCmd))
         time.sleep(5)
+
         #
         # Scan couldn't finish or didn't start due to defender issue
         #
@@ -82,7 +90,7 @@ for inputfile in glob.glob("*.zip"):
             print "scan FAILED, store results"
             print storeResultsCmd
             os.system(storeResultsCmd)
-            os.system("copy %s %s\\%s.txt" % (resultFile, inputdir, file.split('.zip')[0]))
+            os.system("copy \"%s\" \"%s%s.txt\"" % (resultFile, inputdir, file.split('.zip')[0]))
         #
         # Scan was good lets Save results.
         #
@@ -91,7 +99,7 @@ for inputfile in glob.glob("*.zip"):
             print storeResultsCmd
             os.system(storeResultsCmd)
             print "scan returned: " + str(scanResults)
-            os.system("copy %s %s\\%s.txt" % (resultFile, inputdir, file.split('.zip')[0]))
+            os.system("copy \"%s\" \"%s%s.txt\"" % (resultFile, inputdir, file.split('.zip')[0]))
         #
         # Scan had no results, Make a Log anyways
         #
@@ -99,7 +107,7 @@ for inputfile in glob.glob("*.zip"):
             print "Scan Returned Empty :(, Store results"
             print storeResultsCmd
             os.system(storeResultsCmd)
-            os.system("copy %s %s\\%s.txt" % (resultFile, inputdir, file.split('.zip')[0]))
+            os.system("copy \"%s\" \"%s%s.txt\"" % (resultFile, inputdir, file.split('.zip')[0]))
 
     # raw_input()
     #

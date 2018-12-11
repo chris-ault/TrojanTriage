@@ -1,0 +1,982 @@
+
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_c0
+                   134285a276ab933e2a2b9b33b103cd}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 14992
+ThreatName       : TrojanDownloader:Win32/Agent
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_f1
+                   e5d9bf7705b4dc5be0b8a90b73a863, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_d22863c5e6f098a4b5268
+                   8b021beef0a, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_7d3140bd028f70f1fa865364b69c5999, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_4192479b0
+                   55b2b21cb7e6c803b765d34}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 15508
+ThreatName       : TrojanDownloader:Win32/Small
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_bc
+                   bdef1678049378be04719ed29078d2, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_9e860622fee66074dfe81
+                   dcfcc40c4e2}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 17591
+ThreatName       : Backdoor:Win32/Agent
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 3
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_cf
+                   038194f0fe222f31ec24cb80941bb1}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 18057
+ThreatName       : PWS:Win32/Cimuz.B.dll
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 40
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_e4
+                   80c8839e819eaa9b19d53acfa95052}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147491519
+ThreatName       : TrojanProxy:Win32/Small
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_37
+                   ddd3d72ead03c7518f5d47650c8572}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147626106
+ThreatName       : Trojan:Win32/Malex.gen!E
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_6e
+                   8f302794cfaae731840e345063e652}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147626401
+ThreatName       : Trojan:Win32/Tapslix.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d4
+                   c7f1f80883412f9796f1270accff50, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_a2cd1189860b9ba214421
+                   aab86ecbc8a}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147629008
+ThreatName       : TrojanDownloader:Win32/Namsoth.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_75
+                   dad1ccabae8adeb5bae899d0c630f8, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_56de2854ef64d869b5df7
+                   af5e4effe3e, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_54d5d171a482278cc8eacf08d9175fd7, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_3f8682ab0
+                   74a097ebbaadbf26dfff560}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147629380
+ThreatName       : TrojanDownloader:Win32/Pingbed.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_1a
+                   0c7e61bcc50d57b7bcf9d9af691de5, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_17199ddac616938f383a0
+                   339f416c890, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_0d0240672a314a7547d328f824642da8}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147629381
+ThreatName       : Backdoor:Win32/Pingbed.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_09
+                   7b5abb53a3d84fa9eabda02fef9e91}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147630888
+ThreatName       : TrojanDownloader:Win32/Muntsib.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_4b
+                   19a2a6d40a5825e868c6ef25ae445e}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147632436
+ThreatName       : Trojan:Win32/Duberath.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_fa
+                   b6b0b33d59f393e142000f128a9652, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_c044715c2626ab515f6c8
+                   5a21c47c7dd, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_af2745e8888f2ba17a9cf2e0779d3874, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_a565682d8
+                   a13a5719977223e0d9c7aa4...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147633549
+ThreatName       : Backdoor:Win32/Likseput.B
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_e8
+                   3f60fb0e0396ea309faf0aed64e53f, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_e54ce5f0112c9fdfe86db
+                   17e85a5e2c5, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_ba0c4d3dbf07d407211b5828405a9b91, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_b5e9ce727
+                   71217680efaeecfafe3da3f...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147633550
+ThreatName       : Backdoor:Win32/Likseput.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : False
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_17
+                   f5a2e0997b59449ca2120b20b5b7ce}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147639771
+ThreatName       : TrojanDownloader:Win32/Namsoth.B
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_84
+                   62a62f13f92c34e4b89a7d13a185ad}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147645824
+ThreatName       : TrojanDownloader:Win32/Pingbed.C
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d1
+                   6947b200afa74a917f055597b772c0, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_aa4f1ecc4d25b33395196
+                   b5d51a06790, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_5c6f30cc369cd164d44941d381e282cc, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_2b659d71a
+                   e168e774faaf38db30f4a84...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147646618
+ThreatName       : Trojan:Win32/Sluegot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_8a
+                   86df3d382bfd1e4c4165f4cacfdff8, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_3e87051b1dc3463f378c7
+                   e1fe398dc7d, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_052ec04866e4a67f31845d656531830d, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_002325a0a
+                   67fded0381b5648d7fe9b8e}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147646758
+ThreatName       : Trojan:Win32/Sluegot.C
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_fb
+                   671e6de6e301c892d2fdaa58f9cd9a, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_eef80511aa490b2168ed4
+                   c9fa5eafef0, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_605c1dc91a5c85024160ce78dfac842d, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_37eee514b
+                   04167f8e17e2caa3bfd3049...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147648107
+ThreatName       : Backdoor:Win32/Sharat.gen!A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_dd
+                   f3db31f9fa21cd43ff19dde393aba8, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_d7796209412da17b2ee2c
+                   cf2309b4abf}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147649799
+ThreatName       : Trojan:Win32/Barkiofork.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_ef
+                   8e0fb20e7228c7492ccdc59d87c690, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_8e8622c393d7e832d39e6
+                   20ead5d3b49, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_4c6bddcca2695d6202df38708e14fc7e, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_1e314c972
+                   075b8058099fd8759c11ce8}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147649961
+ThreatName       : Backdoor:Win32/Touasper.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_7c
+                   b055ac3acbf53e07e20b65ec9126a1}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147651148
+ThreatName       : TrojanDownloader:Win32/Macup.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_c9
+                   1eacab7655870764d13ba741aa9a73, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_a5d4ebc0285f0213e0c29
+                   d23bc410889, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_95f25d3afc5370f5d9fd8e65c17d3599, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_6808ec6db
+                   b23f0fa7637c108f44c5c80...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147652762
+ThreatName       : Backdoor:Win32/Noobot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_c3
+                   e5603a38e700274d1ab30ce93d08b9}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147654336
+ThreatName       : TrojanDownloader:Win32/Ahrocam.B
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_bf
+                   0ee4367ea32f8e3b911c304258e439, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_bdd2ad4c0e1e5667d1178
+                   10ae9e36c4b, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_9f11bc08af048c5c3a110e567082fe0b, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_438983192
+                   903f3fecf77500a39459ee6}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147654358
+ThreatName       : Backdoor:Win32/Tosct.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d6
+                   2cd4ad2a919b6acfa6d49d446dffdb, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_a8b2ac446c614fd5d4880
+                   d95369deb3b, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_6bf8f1f99ac5bba0db1b66518df378a4}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147654446
+ThreatName       : TrojanDownloader:Win32/Coswid.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_76
+                   9aeae232c6162cedcb6c7255640c4c}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147654494
+ThreatName       : Trojan:Win32/Tosct.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_5b
+                   caa2f4bc7567f6ffd5507a161e221a}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147654495
+ThreatName       : TrojanDownloader:Win32/Tosct.B
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_72
+                   7a6800991eead454e53e8af164a99c, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_468ff2c12cffc7e5b2fe0
+                   ee6bb3b239e}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147655452
+ThreatName       : Backdoor:Win32/Touasper.B
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_db
+                   50416d9e67f4982e89e0ffb0ade6f3, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_bcb087f69792b69494a3e
+                   dad51a842bb, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_a5b581c0600815b1112ca2fed578928b, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_9fc3ed6c9
+                   b8056fbf155f79569ca7cb1...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147655752
+ThreatName       : TrojanDownloader:Win32/Govdi.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_ca
+                   327bc83fbe38b3689cd1a5505dfc33, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_8934aeed5d213fe29e858
+                   eee616a6ec7, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_4f763b07a7b8a80f1f9408e590f79532, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_4a54d7878
+                   d4170c3d4e3c3606365c42c...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147656933
+ThreatName       : Backdoor:Win32/Ecltys.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 34
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d8
+                   b7b276710127d233abcdb7313aac36, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_d4ba6430996fb4021241e
+                   fc97c607504}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 4
+ThreatID         : 2147657556
+ThreatName       : HackTool:Win64/Mikatz
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d8
+                   238e950608e5aba3d3e9e83e9ee2cc, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_9675827a495f4ba6a4efd
+                   4dd70932b7c, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_5ff3269faca4a67d1a4c537154aaad4b, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_53b263dd4
+                   1838aa178a5ced338a207f3...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147657849
+ThreatName       : TrojanDownloader:Win32/Dalbot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_ac
+                   87816b9a371e72512d8fd82f61c737, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_173cd315008897e56fa81
+                   2f2b2843f83}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147659111
+ThreatName       : TrojanDownloader:Win32/Tooki.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 34
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_83
+                   1a67dc75e2d4505180888747bc8ea9}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 4
+ThreatID         : 2147666623
+ThreatName       : HackTool:Win32/Hashenfill.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_c9
+                   9fa835350aa9e2427ce69323b061a9->(RarSfx)->AdobeUpd
+                   ate.exe, containerfile:_C:\Users\Velma\Desktop\sca
+                   nme\VirusShare_2daa4a4574ba06aa3203ae0e0b45b3b8, f
+                   ile:_C:\Users\Velma\Desktop\scanme\VirusShare_1328
+                   eaceb140a3863951d18661b097af->(VFS:WINWORD.EXE), f
+                   ile:_C:\Users\Velma\Desktop\scanme\VirusShare_1328
+                   eaceb140a3863951d18661b097af->(RarSfx)->WINWORD.EX
+                   E...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147671594
+ThreatName       : Backdoor:Win32/Minaps.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d2
+                   71ae0f4e9230af3b61eafe7f671fde, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_523f56515221161579ee6
+                   090c962e5b1, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_270d42f292105951ee81e4085ea45054, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_0dd367759
+                   4632ce270bcf8af94819caf}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147678381
+ThreatName       : Backdoor:Win32/Xifos.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_6f
+                   9992c486195edcf0bf2f6ee6c3ec74}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147678728
+ThreatName       : Trojan:Win32/Godin.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_3d
+                   e1bd0f2107198931177b2b23877df4}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679358
+ThreatName       : Backdoor:Win32/Jabbroot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_f8
+                   437e44748d2c3fcf84019766f4e6dc, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_d9fbf759f527af373e346
+                   73dc3aca462, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_c0a33a1b472a8c16123fd696a5ce5ebb, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_b07322743
+                   778b5868475dbe66eedac4f...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679421
+ThreatName       : Backdoor:Win32/Neporoot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_fc
+                   daa67e33357f64bc4ce7b57491fc53, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_dd21d1ea2146861a4219b
+                   1cbdaefe59b, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_d0d5a20c5a6c4fddab4d43b85632b6a9, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_cf9c2d5a8
+                   fbdd1c5adc20cfc5e663c21...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679422
+ThreatName       : Backdoor:Win32/Tartober.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_f6
+                   27990bbe2ec5c48c180f724490c332, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_ec8c89aa5e521572c74e2
+                   dd02a4daf78, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_c9172b3e83c782bc930c06b628f31fa5, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_c4c638750
+                   526e28f68d6d71fd1266bdf...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679423
+ThreatName       : Backdoor:Win32/Neunut.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_fc
+                   1937c1aa536b3744ebdfb1716fd54d->(VFS:WINWORD.EXE),
+                    file:_C:\Users\Velma\Desktop\scanme\VirusShare_fc
+                   1937c1aa536b3744ebdfb1716fd54d->(RarSfx)->WINWORD.
+                   EXE, containerfile:_C:\Users\Velma\Desktop\scanme\
+                   VirusShare_fc1937c1aa536b3744ebdfb1716fd54d, file:
+                   _C:\Users\Velma\Desktop\scanme\VirusShare_ea1b4409
+                   4ae4d8e2b63a1771a3e61fd5->(VFS:iTunesHelper.exe)..
+                   .}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679496
+ThreatName       : Backdoor:Win32/Miniasroot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_e1
+                   b6940985a23e5639450f8391820655, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_98409dbf432419024dbf0
+                   28c004344c1->(VFS:Nwsapagent.dll), containerfile:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_98409dbf4
+                   32419024dbf028c004344c1}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679497
+ThreatName       : Backdoor:Win32/Linsomroot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_93
+                   3b11bc4799f8d9f65466fb2e3ea659, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_02c65973b6018f5d473d7
+                   01b3e7508b2}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679498
+ThreatName       : Backdoor:Win32/Jepesroot.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_a3
+                   8a367d6696ba90b2e778a5a4bf98fd, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_73d125f84503bd87f8142
+                   cf2ba8ab05e, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_575836ebb1b8849f04e994e9160370e4}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679499
+ThreatName       : Backdoor:Win32/Goolelo.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 34
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_5c
+                   4806b5859b35a3df03763e9c7ecbf6, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_268988aa1df82ab073f52
+                   7b5b6c8bff7}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 4
+ThreatID         : 2147679500
+ThreatName       : HackTool:Win32/Elsashes.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_ef
+                   6c375e3e6930e2b50e1e97fe6fbcc9, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_ec3a2197ca6b63ee1454d
+                   99a6ae145ab, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_830a748959bdd1ad3b6a1f72aab6f063, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_6e442c5ef
+                   460bee4c9457c6bf7a132d6...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679620
+ThreatName       : Trojan:Win32/Connapts
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_55
+                   886d571c2a57984ea9659b57e1c63a, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_2f930d92dc5ebc9d53ad2
+                   a2b451ebf65, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_001dd76872d80801692ff942308c64e6}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679639
+ThreatName       : Trojan:Win32/Sluegot.D
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_5d
+                   8129be965fab8115eca34fc84bd7f0, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_15901ddbccc5e9e0579fc
+                   5b42f754fe8}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679641
+ThreatName       : Backdoor:Win32/Bitsto.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_a4
+                   0e20ff8b991308f508239625f275d8}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679642
+ThreatName       : TrojanDownloader:Win32/Goosta.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 4
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_09
+                   d372e4259980ac95fdadf1846578d9}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147679651
+ThreatName       : TrojanDownloader:Win32/Dielel.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_98
+                   9b797c2a63fbfc8e1c6e8a8ccd6204, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_5bd5a22d42c04db7ac134
+                   3a2a9f471fe, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_321d75c9990408db812e5a248a74f8c8, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_0c28ad34f
+                   90950bc784339ec9f50d288...}
+RollupStatus     : 33
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147681809
+ThreatName       : Backdoor:Win32/Stradatu
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_24
+                   259ae8b0018b0ce9992fb1d9b69e2a}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147682118
+ThreatName       : Backdoor:Win32/Touasper.C
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_88
+                   dbcc682635b4013bcba5ad28bb976b}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147682590
+ThreatName       : Trojan:Win32/Maptsc.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 34
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_80
+                   856bd8ef7d5dbc3dc774f581855549}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 4
+ThreatID         : 2147682649
+ThreatName       : HackTool:Win32/SamDump
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 3
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_94
+                   a59ce0fadf84f6efa10fe7d5ee3a03}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147682801
+ThreatName       : PWS:Win32/Maptsc.A
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_7a
+                   cb0d1df51706536f33bbdb990041d3->(VFS:netui0.dll#1)
+                   , containerfile:_C:\Users\Velma\Desktop\scanme\Vir
+                   usShare_7acb0d1df51706536f33bbdb990041d3, file:_C:
+                   \Users\Velma\Desktop\scanme\VirusShare_36cd49ad631
+                   e99125a3bb2786e405cea}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147695070
+ThreatName       : Trojan:Win32/Barkiofork!dha
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 34
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_af
+                   719814507fdca4b96184f33b6b92ea}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 4
+ThreatID         : 2147705511
+ThreatName       : HackTool:Win64/Mikatz!dha
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 34
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_82
+                   7040a5f5ae8de281a63899224b2f3a, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_67504a0c2c2bf47efccda
+                   b5ca981ad7d}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 4
+ThreatID         : 2147706304
+ThreatName       : HackTool:Win32/Mikatz!dha
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 6
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_ba
+                   abd9b76bff84ed27fd432cfc6df241, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_b8277cce81e0a372bc35d
+                   33a0c9483c2, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_af2f7b070245c90bd2a0a0845314173a, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_a639f598d
+                   4c0b9aa7a4691d05f27d977...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147706602
+ThreatName       : Backdoor:Win32/Warood.B
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_d7
+                   aa32b7465f55c368230bb52d52d885, file:_C:\Users\Vel
+                   ma\Desktop\scanme\VirusShare_d2f1be7e10ed39aa8bc0f
+                   7f671d824d2, file:_C:\Users\Velma\Desktop\scanme\V
+                   irusShare_d262cb8267beb0e218f6d11d6af9052e, file:_
+                   C:\Users\Velma\Desktop\scanme\VirusShare_7a7a46e8f
+                   bc25a624d58e897dee04ffa...}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147708902
+ThreatName       : Trojan:Win32/Skeeyah
+TypeID           : 0
+PSComputerName   : 
+
+CategoryID       : 8
+DidThreatExecute : False
+IsActive         : True
+Resources        : {file:_C:\Users\Velma\Desktop\scanme\VirusShare_3b
+                   1b190407b868406c5c155a79f3d146}
+RollupStatus     : 1
+SchemaVersion    : 1.0.0.0
+SeverityID       : 5
+ThreatID         : 2147628999
+ThreatName       : Trojan:Win32/Ruce.gen!A
+TypeID           : 0
+PSComputerName   : 
+
+
+
