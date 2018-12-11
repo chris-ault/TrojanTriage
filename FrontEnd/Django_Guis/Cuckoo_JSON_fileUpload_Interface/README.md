@@ -2,6 +2,7 @@ Cuckoo_Json_fileUpload_Interface
 ==================================
 
 The goal with Cuckoo_JSON_fileUpload_Interface is to provide a web page for Cuckoo file analysis submissions to be parsed and submitted to the databse with Python and Django.
+![Upload Results](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface/cuckoo_parsed_result.PNG)
 
 Usage (Django 1.9)
 ------------------
