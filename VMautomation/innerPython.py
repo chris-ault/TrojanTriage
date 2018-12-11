@@ -29,7 +29,8 @@ defdir = "C:\\Program Files\\Windows Defender"
 scanCmd = "MpCmdRun.exe -scan -ScanType 3 -DisableRemediation -file C:\\Users\\user\\Desktop\\scanme"
 # scanCmd = "powershell -command Start-MpScan -ScanPath C:\\Users\\user\\Desktop\\scanme -ScanType CustomScan -ThrottleLimit 70"
 # Save Results to txt file
-storeResultsCmd = "powershell -command Get-MpThreat > \\\\Vboxsvr\\sharedrive2\\resultpause.txt"
+resultFile = inputdir + '\\resultpause.txt'
+storeResultsCmd = "powershell -command Get-MpThreat > " + resultFile
 # This is brokenErase any old results
 # This command is broken Clean MpThreat before getting results
 # cleanResultsCmd = "powershell -command Remove-MpThreat"
@@ -43,13 +44,15 @@ if len(outResult) > 0:
     exit()
 print "Logs appear to be clean, continuing to parse mal"
 os.chdir(inputdir)
+while not os.path.exists('*.zip'):
+    time.sleep(1)
 for inputfile in glob.glob("*.zip"):
     file = inputfile
     print str(file)
     # file = "virusshare.rar"
     # file = "VirusShare_ELF_20140617.zip"
     # Also make sure Realtime Scanning is not enabled ?
-    command = "7z e -pinfected \\\\Vboxsvr\\sharedrive2\\input\\" + \
+    command = "7z e -pinfected " + inputdir + \
         file + " -oC:\\Users\\user\\Desktop\\scanme\\"
     print command
     # print "File Ready to extract, wait and check Get-MpThreat"
@@ -79,18 +82,16 @@ for inputfile in glob.glob("*.zip"):
             print "scan FAILED, store results"
             print storeResultsCmd
             os.system(storeResultsCmd)
-            os.system("copy \\\\Vboxsvr\\sharedrive2\\resultpause.txt \\\\Vboxsvr\\sharedrive2\\%s.txt" %
-                      file.split('.zip')[0])
+            os.system("copy %s %s\\%s.txt" % (resultFile, inputdir, file.split('.zip')[0]))
         #
         # Scan was good lets Save results.
         #
         if scanResults == '2':
             print "scan Completed, Storing Results"
-            print storeResultsCmd            
+            print storeResultsCmd
             os.system(storeResultsCmd)
             print "scan returned: " + str(scanResults)
-            os.system("copy \\\\Vboxsvr\\sharedrive2\\resultpause.txt \\\\Vboxsvr\\sharedrive2\\%s.txt" %
-                      file.split('.zip')[0])
+            os.system("copy %s %s\\%s.txt" % (resultFile, inputdir, file.split('.zip')[0]))
         #
         # Scan had no results, Make a Log anyways
         #
@@ -98,9 +99,9 @@ for inputfile in glob.glob("*.zip"):
             print "Scan Returned Empty :(, Store results"
             print storeResultsCmd
             os.system(storeResultsCmd)
-            os.system("copy \\\\Vboxsvr\\sharedrive2\\resultpause.txt \\\\Vboxsvr\\sharedrive2\\%s.txt" %
-                      file.split('.zip')[0])
-    #raw_input()
+            os.system("copy %s %s\\%s.txt" % (resultFile, inputdir, file.split('.zip')[0]))
+
+    # raw_input()
     #
     # Cleanup for next zip regardless of scan return
     #
