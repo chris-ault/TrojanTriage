@@ -2,3 +2,6 @@ FrontEnd\mysqlclient-1.3.13-cp27-cp27m-win32.whl
 FrontEnd\Django_Guis\tcl
 *.pyc
 FrontEnd\SimpleInsert\tcl\
+*.sublime-project
+*.sublime-workspace
+*.sublime-project

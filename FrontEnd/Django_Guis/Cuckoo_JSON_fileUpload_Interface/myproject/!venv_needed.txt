@@ -1,0 +1,2 @@
+TrojanTriage\FrontEnd\frontEnd\Scripts
+activate

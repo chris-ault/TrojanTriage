@@ -1,0 +1,89 @@
+ MySQL  localhost:33060+ ssl  malwaredb  SQL > show tables
+                                           ... ;
++----------------------------+
+| Tables_in_malwaredb        |
++----------------------------+
+| auth_group                 |
+| auth_group_permissions     |
+| auth_permission            |
+| auth_user                  |
+| auth_user_groups           |
+| auth_user_user_permissions |
+| django_admin_log           |
+| django_content_type        |
+| django_migrations          |
+| django_session             |
+| dlltable                   |
+| element                    |
+| malware                    |
+| malware2dll                |
+| myapp_document             |
+| typepage_typepage          |
++----------------------------+
+16 rows in set (0.0024 sec)
+
+ MySQL  localhost:33060+ ssl  malwaredb  SQL > describe dlltable
+                                           ... ;
++----------------+----------------------+------+-----+---------+----------------+
+| Field          | Type                 | Null | Key | Default | Extra          |
++----------------+----------------------+------+-----+---------+----------------+
+| malware_dll_id | smallint(5) unsigned | NO   | PRI | NULL    | auto_increment |
+| dll_name       | varchar(80)          | NO   |     | NULL    |                |
++----------------+----------------------+------+-----+---------+----------------+
+2 rows in set (0.0031 sec)
+
+ MySQL  localhost:33060+ ssl  malwaredb  SQL > DESCRIBE malware;
++---------------+--------------+------+-----+---------+-------+
+| Field         | Type         | Null | Key | Default | Extra |
++---------------+--------------+------+-----+---------+-------+
+| severity      | int(11)      | YES  |     | NULL    |       |
+| type          | varchar(255) | YES  |     | NULL    |       |
+| OS            | varchar(255) | YES  |     | NULL    |       |
+| CategoryID    | varchar(255) | YES  |     | NULL    |       |
+| Rollupstatus  | varchar(255) | YES  |     | NULL    |       |
+| Schemaversion | varchar(255) | YES  |     | NULL    |       |
+| Date          | varchar(255) | YES  |     | NULL    |       |
+| threatID      | bigint(20)   | YES  |     | NULL    |       |
+| Hash          | char(32)     | NO   | PRI | NULL    |       |
+| Location      | varchar(255) | YES  |     | NULL    |       |
+| subType       | varchar(255) | YES  |     | NULL    |       |
+| filetype      | varchar(255) | YES  |     | NULL    |       |
++---------------+--------------+------+-----+---------+-------+
+12 rows in set (0.0041 sec)
+
+ MySQL  localhost:33060+ ssl  malwaredb  SQL > DESCRIBE malware2dll;
++----------------+----------------------+------+-----+---------+-------+
+| Field          | Type                 | Null | Key | Default | Extra |
++----------------+----------------------+------+-----+---------+-------+
+| Hash           | char(32)             | NO   | PRI | NULL    |       |
+| malware_dll_id | smallint(5) unsigned | NO   | PRI | NULL    |       |
++----------------+----------------------+------+-----+---------+-------+
+2 rows in set (0.0034 sec)
+
+ MySQL  localhost:33060+ ssl  malwaredb  SQL > DESCRIBE element;
++---------------+--------------+------+-----+---------+-------+
+| Field         | Type         | Null | Key | Default | Extra |
++---------------+--------------+------+-----+---------+-------+
+| severity      | int(11)      | YES  |     | NULL    |       |
+| type          | varchar(255) | YES  |     | NULL    |       |
+| OS            | varchar(255) | YES  |     | NULL    |       |
+| CategoryID    | varchar(255) | YES  |     | NULL    |       |
+| Rollupstatus  | varchar(255) | YES  |     | NULL    |       |
+| Schemaversion | varchar(255) | YES  |     | NULL    |       |
+| Date          | varchar(255) | YES  |     | NULL    |       |
+| threatID      | bigint(20)   | YES  |     | NULL    |       |
+| HASH          | char(32)     | NO   | PRI | NULL    |       |
+| unpackedMD5   | char(32)     | YES  |     | NULL    |       |
+| Location      | varchar(255) | YES  |     | NULL    |       |
+| subType       | varchar(255) | YES  |     | NULL    |       |
++---------------+--------------+------+-----+---------+-------+
+12 rows in set (0.0035 sec)
+
+ MySQL  localhost:33060+ ssl  malwaredb  SQL > DESCRIBE dlltable;
++----------------+----------------------+------+-----+---------+----------------+
+| Field          | Type                 | Null | Key | Default | Extra          |
++----------------+----------------------+------+-----+---------+----------------+
+| malware_dll_id | smallint(5) unsigned | NO   | PRI | NULL    | auto_increment |
+| dll_name       | varchar(80)          | NO   |     | NULL    |                |
++----------------+----------------------+------+-----+---------+----------------+
+2 rows in set (0.0027 sec)
