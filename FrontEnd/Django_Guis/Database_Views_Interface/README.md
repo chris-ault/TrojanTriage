@@ -22,7 +22,7 @@ First ensure you have installed the following:
 
 Then:
 
-	git clone https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface
-	cd Database_Views_Interface
+	git clone https://github.com/chris-ault/TrojanTriage.git
+	cd FrontEnd\Django_Guis\Database_Views_Interface
 	python manage.py migrate
 	python manage.py runserver localhost:8001

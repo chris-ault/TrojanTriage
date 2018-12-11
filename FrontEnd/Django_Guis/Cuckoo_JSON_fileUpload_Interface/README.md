@@ -14,8 +14,8 @@ First ensure you have installed the following:
 
 Then:
 
-    $ git clone https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Parrot_JSON_fileUpload_Interface
-	$ cd Parrot_JSON_fileUpload_Interface
+    $ git clone https://github.com/chris-ault/TrojanTriage.git
+	$ cd FrontEnd\Parrot_JSON_fileUpload_Interface
 	$ cd myproject
 	$ python manage.py migrate
 	$ python manage.py runserver localhost:8000
