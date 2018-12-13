@@ -1,5 +1,5 @@
 # TrojanTriage
-This project is built to organize a collection of malware in order to gain knowledge from commonalities between certain pieces of malware.
+This project is built to organize a collection of malware in order to gain knowledge from commonalities between certain pieces of malware. With a large database of malware and information about the malware it will be easier to answer questions like:  “How many samples use this x DLL?”, “How many ransomware sampes use this x DLL?”  “What is the full list of DLLs used by all known backdoors?”
 
 
 The front end utilizes Django & Django ORM operations on the mySQL database
