@@ -14,11 +14,14 @@ The mySQL database provides storage for the malware information. [make tables](h
 The Django interface provides a front end for viewing and sorting the malware samples.[database views interface](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface)
 
 The VMAutomation portion providing malware information collection.[python scripts](https://github.com/chris-ault/TrojanTriage/tree/master/VMautomation)
-In Progress:
--[dll anlysis](https://github.com/chris-ault/TrojanTriage/blob/master/Analysis/dllAnalysis_2DB/dllAnaly.py)
--[Portable Executable analysis](https://github.com/chris-ault/TrojanTriage/tree/master/Analysis/fileAnalysis)
--
 
+In Progress:
+
+  -[dll anlysis](https://github.com/chris-ault/TrojanTriage/blob/master/Analysis/dllAnalysis_2DB/dllAnaly.py)
+  
+  -[Portable Executable analysis](https://github.com/chris-ault/TrojanTriage/tree/master/Analysis/fileAnalysis)
+
+----------
 [Django interface for displaying databases](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface)
 <a href="https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface">![Image of Django database page](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Database_Views_Interface/typePage.png)</a>
 ------------
