@@ -1,3 +1,5 @@
+![Image of Flask GUI](https://github.com/chris-ault/TrojanTriage/blob/master/flask.JPG)
+
 # Flask simple table
 This preliminary flask interface was built to list malware samples from the mySQL database.
 
