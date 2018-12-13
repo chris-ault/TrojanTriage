@@ -9,11 +9,11 @@ The log malware scan log files are processed with python.
 
 The Trojan Triage process consists of 3 main parts.
 -------
-The mySQL database provides storage for the malware information. [make tables](https://github.com/chris-ault/TrojanTriage/tree/master/db/mySQL/TableBuildingScripts/Database_Creation_Automation)
+1. The mySQL database provides storage for the malware information. [make tables](https://github.com/chris-ault/TrojanTriage/tree/master/db/mySQL/TableBuildingScripts/Database_Creation_Automation)
 
-The Django interface provides a front end for viewing and sorting the malware samples.[database views interface](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface)
+2. The Django interface provides a front end for viewing and sorting the malware samples.[database views interface](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface)
 
-The VMAutomation portion providing malware information collection.[python scripts](https://github.com/chris-ault/TrojanTriage/tree/master/VMautomation)
+3. The VMAutomation portion providing malware information collection.[python scripts](https://github.com/chris-ault/TrojanTriage/tree/master/VMautomation)
 
 In Progress:
 
