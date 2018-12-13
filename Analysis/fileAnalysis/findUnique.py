@@ -1,5 +1,5 @@
 # This script checks a file with a list of types and returned only the unique types
-
+# Run FileAnalyze.py with only attribList[4] printed to text file to get a list of file types.
 inputFile = 'fileTypes.txt'
 
 from collections import Counter, OrderedDict
