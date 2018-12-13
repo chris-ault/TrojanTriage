@@ -17,7 +17,7 @@
 # TODO
 # Currently this adds directly to DB with no flat file inbetween
 # DB Loss results in parsing needing to be done again
-# Less DB = Commit More Speed!
+# Less DB Commit = More Speed!
 import mysql.connector
 import hashlib
 import pefile
@@ -25,8 +25,7 @@ import glob
 
 
 mydb = mysql.connector.connect(
-    #host="localhost",
-    host= "?",#"10.37.92.133",
+    host="localhost",
     user="user",
     passwd="password",
     database="malwareDB"
@@ -63,7 +62,7 @@ def createNewDll(hash, dllName):
     lookupAndInsert(hash, dllName)
 
 
-# BUF_SIZE is totally arbitrary, change for your app!       
+# BUF_SIZE is totally arbitrary, change for your app!
 BUF_SIZE = 65536  # lets read stuff in 64kb chunks!
 
 md5 = hashlib.md5()

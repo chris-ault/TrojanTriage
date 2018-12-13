@@ -11,7 +11,8 @@ This project is built to organize a collection of malware in order to gain knowl
 [Django interface for Cuckoo uploads](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface)
 <a href="https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface">![Image of Django backend result](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface/cuckoo_parsed_result.PNG)</a>
 
-![Image of Flask GUI](https://github.com/chris-ault/TrojanTraige/blob/master/flask.JPG)
+<a href="https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Flask_Guis/SimpleTable">Older Flask GUI
+![Image of Flask GUI](https://github.com/chris-ault/TrojanTraige/blob/master/flask.JPG)</a>
 ------------
 ![Image of SQL Results](https://github.com/chris-ault/TrojanTraige/blob/master/sql.JPG)
 
