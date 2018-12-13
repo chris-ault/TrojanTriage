@@ -5,7 +5,7 @@ This project is built to organize a collection of malware in order to gain knowl
     The data stored in the mySQL database is pulled from multiple major antivirus databases as well as local research.
     The log malware scan log files are processed with python.
 
-[Django interface for displaying databases]a(https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface)
+[Django interface for displaying databases](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Database_Views_Interface)
 [Django interface for Cuckoo uploads](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface)
 
 ![Image of Flask GUI](https://github.com/chris-ault/TrojanTraige/blob/master/flask.JPG)
