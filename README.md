@@ -18,7 +18,7 @@ The VMAutomation portion providing malware information collection.[python script
 In Progress:
 
   -[dll anlysis](https://github.com/chris-ault/TrojanTriage/blob/master/Analysis/dllAnalysis_2DB/dllAnaly.py)
-  
+
   -[Portable Executable analysis](https://github.com/chris-ault/TrojanTriage/tree/master/Analysis/fileAnalysis)
 
 ----------
@@ -28,12 +28,7 @@ In Progress:
 [Django interface for Cuckoo uploads](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface)
 <a href="https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface">![Image of Django backend result](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface/cuckoo_parsed_result.PNG)</a>
 
-<<<<<<< HEAD
-<a href="https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Flask_Guis/SimpleTable">Older Flask GUI
-![Image of Flask GUI](https://github.com/chris-ault/TrojanTraige/blob/master/flask.JPG)</a>
-=======
 ![Image of Flask GUI](https://github.com/chris-ault/TrojanTriage/blob/master/flask.JPG)
->>>>>>> bb59d08e77635ca185178d77445598813b771de6
 ------------
 ![Image of SQL Results](https://github.com/chris-ault/TrojanTriage/blob/master/sql.JPG)
 
