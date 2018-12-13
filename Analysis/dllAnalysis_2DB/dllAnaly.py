@@ -17,7 +17,7 @@
 # TODO
 # Currently this adds directly to DB with no flat file inbetween
 # DB Loss results in parsing needing to be done again
-# Less DB Commit More Speed!
+# Less DB = Commit More Speed!
 import mysql.connector
 import hashlib
 import pefile
@@ -89,4 +89,4 @@ for file in glob.glob('*'):
         # And Removing from DEF
     except (pefile.PEFormatError, AttributeError):
         pass
-print "By God I Think We Might Have Done It"
+print "done"
