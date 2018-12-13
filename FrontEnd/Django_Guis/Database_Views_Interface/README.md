@@ -3,7 +3,7 @@ Database Views Interface
 
 The goal with Database Views interface is to display a mySQL database of multiple tables with information about malware with Django.
 ![Type Page](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Database_Views_Interface/typePage.png)
-
+![list page](https://raw.githubusercontent.com/chris-ault/TrojanTriage/master/FrontEnd/Django_Guis/Database_Views_Interface/typePage_details_top.PNG)
 Usage (Django 1.9 - 1.11)
 ------------------
 First ensure you have installed the following:
