@@ -1,10 +1,12 @@
 Cuckoo JSON File Upload Interface
 ==================================
 
-The goal with Cuckoo JSON file Upload Interface is to provide a web page for Cuckoo file analysis submissions to be parsed and submitted to the databse with Python and Django.
+The goal with Cuckoo JSON file Upload Interface is to provide a web page for Cuckoo file analysis submissions to be parsed and submitted to the databse with Python and Django ORM.
+
+Upon submission of the JSON file this is returned in the console:
 ![Upload Results](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface/cuckoo_parsed_result.PNG)
 
-Usage (Django 1.9)
+Usage (Django 1.9-1.11)
 ------------------
 First ensure you have installed the following:
 
@@ -14,13 +16,12 @@ First ensure you have installed the following:
 
 Then:
 
-    $ git clone https://github.com/chris-ault/TrojanTriage.git
-	$ cd FrontEnd\Parrot_JSON_fileUpload_Interface
-	$ cd myproject
+  $ git clone https://github.com/chris-ault/TrojanTriage.git
+	$ cd FrontEnd\Cuckoo_JSON_fileUpload_Interface\myproject
 	$ python manage.py migrate
 	$ python manage.py runserver localhost:8000
 	Open a browser point to localhost:8000/type/
 
-This long query to load this initial page will take between 20-60 seconds as it is counting all the malware samples and sorting them.  You will be presented with a sorted list of malware types and counts of identefied infected malware samples in the database.
+This long query to load this initial page will take between 20-60 seconds as it is counting all the malware samples and sorting them.  You will be presented with a sorted list of malware types and counts of identified infected malware samples in the database.
 
 Selecting a 'Type' name such as Trojan will take you to http://localhost:8000/type/details/Trojan/severity/.  Here you will see all samples of infected malware that have been parsed with the type titled 'Trojan'. Selecting "DLLs" will take you to the analysis of that specific sample showing detailed information on which DLL filenames that sample requested.  From the 'Virus Type' page select a hash of a sample to be taken to virustotal to see online scan results of that specific sample.  Choosing 'Street Name' will direct you to Microsofts description of that paticular malware type.
