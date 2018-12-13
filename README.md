@@ -28,8 +28,8 @@ In Progress:
 [Django interface for Cuckoo uploads](https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface)
 <a href="https://github.com/chris-ault/TrojanTriage/tree/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface">![Image of Django backend result](https://github.com/chris-ault/TrojanTriage/blob/master/FrontEnd/Django_Guis/Cuckoo_JSON_fileUpload_Interface/cuckoo_parsed_result.PNG)</a>
 
-![Image of Flask GUI](https://github.com/chris-ault/TrojanTriage/blob/master/flask.JPG)
 ------------
 ![Image of SQL Results](https://github.com/chris-ault/TrojanTriage/blob/master/sql.JPG)
 
+![Image of Malware scan](https://raw.githubusercontent.com/chris-ault/TrojanTriage/master/VMautomation/ParsingMalware.png)
 This database is for educational purposes only.
